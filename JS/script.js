@@ -122,7 +122,7 @@ function actualizarContador(){
 
 const cartaTexto = `
 
-Mi querida Vanessa ❤️
+Mi amor ❤️
 
 Desde aquel 27 de febrero de 2022 mi vida cambió completamente.
 
@@ -159,6 +159,8 @@ Volvería a elegirte una y mil veces.
 Gracias por existir.
 
 Te amo infinitamente.
+
+Espero que nunca me faltes.
 
 ❤️
 `;
