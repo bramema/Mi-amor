@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Vanessa ❤️</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Fuente -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fondo -->
+    <div id="stars"></div>
+    <div id="hearts"></div>
+
+    <!-- Música -->
+    <audio id="musica" loop>
+        <source src="audio/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Pantalla bienvenida -->
+
+    <section id="inicio" class="pantalla">
+
+        <h2 class="tituloBienvenida">
+            Hola Vanessa ❤️
+        </h2>
+
+        <p class="subtitulo">
+            Tengo algo muy importante que decirte...
+        </p>
+
+        <button id="btnComenzar">
+            Comenzar
+        </button>
+
+    </section>
+
+    <!-- Historia -->
+
+    <section id="historia" class="oculto">
+
+        <h1>Nuestra Historia ❤️</h1>
+
+        <p class="frase">
+            Desde aquel
+            <strong>27 de febrero de 2022</strong>
+            mi vida cambió para siempre.
+        </p>
+
+        <p class="frase">
+            Gracias por cada abrazo...
+        </p>
+
+        <p class="frase">
+            Gracias por cada sonrisa...
+        </p>
+
+        <p class="frase">
+            Gracias por enseñarme lo que significa amar de verdad.
+        </p>
+
+    </section>
+
+    <!-- Contador -->
+
+    <section class="contador oculto">
+
+        <h2>
+            Hemos estado juntos durante...
+        </h2>
+
+        <div class="contadorCaja">
+
+            <div class="item">
+                <span id="dias">0</span>
+                <p>Días</p>
+            </div>
+
+            <div class="item">
+                <span id="horas">0</span>
+                <p>Horas</p>
+            </div>
+
+            <div class="item">
+                <span id="minutos">0</span>
+                <p>Minutos</p>
+            </div>
+
+            <div class="item">
+                <span id="segundos">0</span>
+                <p>Segundos</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Galería -->
+
+    <section class="galeria oculto">
+
+        <h2>
+            Nuestros recuerdos 📸
+        </h2>
+
+        <div class="contenedorFotos">
+
+            <img src="img/foto1.jpg">
+
+            <img src="img/foto2.jpg">
+
+            <img src="img/foto3.jpg">
+
+            <img src="img/foto4.jpg">
+
+            <img src="img/foto5.jpg">
+
+            <img src="img/foto6.jpg">
+
+        </div>
+
+    </section>
+
+    <!-- Carta -->
+
+    <section class="carta oculto">
+
+        <h2>
+            Una carta para ti 💌
+        </h2>
+
+        <div class="contenidoCarta">
+
+            <p id="textoCarta"></p>
+
+        </div>
+
+    </section>
+
+    <!-- Propuesta -->
+
+    <section class="propuesta oculto">
+
+        <img
+            src="img/anillo.png"
+            class="anillo">
+
+        <h1>
+
+            Vanessa...
+
+        </h1>
+
+        <h2>
+
+            ¿Quieres casarte conmigo?
+
+        </h2>
+
+        <p>
+
+            Porque quiero compartir contigo cada amanecer, cada sueño, cada logro y cada instante de mi vida.
+
+        </p>
+
+        <div class="botones">
+
+            <button id="btnSi">
+
+                ❤️ Sí, quiero
+
+            </button>
+
+            <button id="btnNo">
+
+                No 🙈
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Pantalla Final -->
+
+    <section id="final" class="oculto">
+
+        <h1>
+
+            ❤️
+
+        </h1>
+
+        <h2>
+
+            Gracias por regalarme el mejor
+
+            <span>"Sí"</span>
+
+            de mi vida.
+
+        </h2>
+
+        <h3>
+
+            Te amo infinitamente Vanessa.
+
+        </h3>
+
+        <p>
+
+            27/02/2022
+
+            <br>
+
+            El día en que comenzó nuestra historia.
+
+        </p>
+
+        <button id="btnDescargar">
+
+            Descargar nuestro recuerdo 📸
+
+        </button>
+
+    </section>
+
+    <!-- Confeti -->
+
+    <canvas id="confeti"></canvas>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
